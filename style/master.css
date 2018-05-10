@@ -1,0 +1,288 @@
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px auto;
+}
+.wrap {
+    position: fixed;
+    z-index: -1;
+}
+
+main{
+    background-color:rgba(189, 149, 90, 0.2);
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+header{
+    /* position: static; */
+    width: 100%;
+}
+
+header img {
+    display: block;
+    margin: 10px auto;
+  }
+
+  #mainContent .row{
+      height: 50%;
+      /* position:  absolute; */
+      /* width: 50%; */
+      /* bottom: 0; */
+  }
+.row{
+    align-items: flex-end;
+}
+  .index .row .col {
+      height: 200px;
+      background-color: rgba(189, 149, 90, 1);
+      transform: skewX(-20deg);
+      background-position: center;
+      background-size: cover;
+      border: 2px solid rgba(128, 0, 41, 1);
+  }
+
+.index div.col{
+    padding:0px;
+}
+
+.row .col span:hover{
+    background-color: rgba(189, 149, 90, 0.25);
+}
+
+  .index .row .col:hover {
+      height: 300px;
+      width: 400px;
+      transition: all 0.2s;
+      box-shadow: 10px 10px rgba(189, 149, 90, 1);
+  }
+
+  .index .row .col:nth-child(1){
+      background-image: url("../img/events.jpg") ;
+      background-repeat: no-repeat;
+  }
+
+
+  .index .row .col:nth-child(2){
+    background-image: url("../img/surving-the-cs-major.jpg");
+}
+
+/* .index .row .col:nth-child(3){
+    background-image: url("../img/useful_resources.jpg");
+} */
+
+.index .row .col:nth-child(3){
+    background-image: url("../img/contact.jpg");
+}
+
+.index .row .col:nth-child(4){
+    background-image: url("../img/Become-a-Member.png");
+}
+
+.index .row .col:nth-child(5) {
+    background-image: url("../img/faqs.png")
+}
+
+.page {
+    background-color: rgba(128, 0, 41, 0.2);
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.col a span{
+    color: rgba(128, 0, 41, 1);
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.images {
+    /* height: 600px; */
+}
+
+.page section {
+    margin-top: 50px;
+}
+
+#myVideo {
+    width: 100%;
+}
+
+.github img{
+    position:  relative;
+    height: 300px;
+    right: -30%;
+}
+
+.github row {
+    align-items: baseline;
+}
+
+.documentation .row {
+    /* display: inline-block; */
+    height: 550px;
+    /* min-height: 500px; */
+    /* max-height: 600px; */
+}
+
+.documentation img {
+    margin:  0px auto;
+    /* height: 300px; */
+    width: 300px;
+}
+
+.documentation .card {
+    min-height: 350px;
+}
+
+.documentation .card-body {
+    /* float:  left; */
+    height: 150px;
+    /* background: slategray; */
+    /* display:  block; */
+}
+
+#myNavBar li a{
+    color: rgba(128, 0, 41, 1);
+}
+
+.navbar .active{
+    padding: 5px;
+    border-radius:  5px;
+    background-color: rgba(128, 0, 41, 1);
+}
+
+.active a{
+    color: white!important;
+}
+
+p{
+    font-size: 18px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.50rem;
+}
+
+.bg-light{
+    background-color: rgba(190,149,91,0.5)!important;
+}
+
+.faculty img{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.faculty p, .president p, .page .card-body p{
+    font-size: 16px;
+}
+
+.faculty .card-body {
+    padding: 1.25rem;
+    text-align: justify;
+}
+
+.faculty .card {
+    height: 400px;
+}
+
+.faculty .card a{
+    color: rgba(128, 0, 41, 1);
+}
+
+.btn-primary {
+    background-color: rgba(128, 0, 41, 1);
+    border-color: rgba(128, 0, 41, 0.75);
+}
+
+.btn-primary:hover {
+    background-color: rgba(190,149,91,1);
+    border-color: rgba(190,149,91,0.5);
+}
+
+footer {
+    bottom: 0;
+    padding-top: 10px;
+    background-color: rgba(190,149,91,0.5)!important;
+    /* position: absolute; */
+    min-height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    color: rgba(128, 0, 41, 1);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.faqs .btn-link {
+    color: rgba(128, 0, 41, 1);
+}
+
+footer span {
+    float: right;
+    /* text-align: right; */
+}
+
+.fa-facebook-square{
+    font-size: 10em;
+    color: rgba(128, 0, 41, 1);
+}
+
+.president .card{
+    width: 300px;
+}
+
+.president .card-body{
+    padding: 1rem;
+}
+
+#accordion h5 button{
+    font-size: 1.35rem!important;
+}
+
+#accordion .card-body{
+    font-size: 1rem!important;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.index .col p{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+.page .div col {
+    padding: 0px 15px!important;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.navbar-brand{
+    margin: 0px;
+}
+
+.page .card-title {
+    font-weight: bold;
+}
