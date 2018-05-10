@@ -4,7 +4,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand mx-auto	d-block d-sm-block d-xs-block d-md-block d-lg-none d-xl-none" href="#"><img src="./img/acm_new_logo.png" alt=""></a>
+        <a class="navbar-brand mx-auto	d-block d-sm-block d-xs-block d-md-block d-lg-none d-xl-none" href="index.php"><img src="./img/acm_new_logo.png" alt=""></a>
         <div class="collapse navbar-collapse justify-content-md-center" id="myNavBar">
             <li class="nav-item <?php if ($page_name=='' || $page_name=='index.php' ){echo "active";} ?> "><a href="index.php"><i class="fas fa-home"></i></a></li>
             <li class="nav-item <?php if ($page_name=='events.php' ){echo "active";} ?>"><a href="events.php">Events</a></li>
