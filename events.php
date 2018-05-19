@@ -1,7 +1,7 @@
 <?php include_once("./includes/header.php"); ?>
     <body class="page">
 
-    <?php include_once("/includes/navbar.php"); ?>
+    <?php include_once("./includes/navbar.php"); ?>
 
     <section class="container images">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
